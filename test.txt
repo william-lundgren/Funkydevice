@@ -1,1 +1,1 @@
-schtasks /create /sc ONEVENT /mo 4801 /tn testingn /tr %USERPROFILE%\script.bat 
+schtasks /create /sc ONLOGON /tn testingn /tr %USERPROFILE%\script.bat 
